@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/7e9765ee30.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Mocha Avenuet</title>
@@ -12,11 +13,11 @@
 
     <!-- header section start -->
     <header>
-        <div class="logo-container"><img src="./images/logoupdated.png" alt="logo"></div>
+        <div class="logo-container"><img src="./images/newLogo.png" alt="logo"></div>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#coffee">Coffee</a>
+            <a href="#coffee">Burger</a>
             <a href="#About">About</a>
             <a href="#menu">Menu</a>
             <a href="#review">Review</a>
@@ -42,6 +43,54 @@
     </form>
     <!-- search form end -->
 
+    <!-- Home section start -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Buttons' Special</span>
+                        <h3>Big Boy</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, odio.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/burger3.jpg" class="burger" alt="sushi">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Buttons' Special</span>
+                        <h3>Spicy Sea</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, odio.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/sushi.png" alt="sushi">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Buttons' Special</span>
+                        <h3>Chef's Secret</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, odio.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+
+                    <div class="image">
+                        <img src="./images/steak.png" alt="sushi">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- home section end -->
+
 
 
 
@@ -50,6 +99,7 @@
 
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>

@@ -31,19 +31,47 @@ body{
     height: 3000px;
 }
 
+section{
+    padding: 2rem 9%;
+}
+
+section:nth-child(even){
+    background: #eee;
+}
+
+.burger{
+    background-color: #fff;
+}
+
+.btn{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    display: inline-block;
+    background-color: var(--primary-color-2);
+    color: #fff;
+    padding: 0.8rem 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.btn:hover{
+    letter-spacing: 0.1rem;
+    background-color: var(--primary-color-1);
+}
+
 
 /* header */
 header{
     position: fixed;
     top: 0;
     right: 0;
+    background-color: #fff;
     left: 0;
    
     padding: 1rem 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 1050;
     box-shadow: var(--box-shadow);
 }
 
@@ -135,7 +163,7 @@ header .icons #menu-bars{
 }
 #search-form #close{
     position: absolute;
-    top: 2rem;
+    top: 12rem;
     color: #fff;
     font-size: 3.5rem;
     right: 3rem;
@@ -146,9 +174,47 @@ header .icons #menu-bars{
     top: 0;
 }
 
+/* home section start */
 
+.home .home-slider .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
 
+.home .home-slider .slide .content{
+    flex: 1 1 45rem;
+}
 
+.home .home-slider .slide .image{
+    flex: 1 1 45rem;
+    min-height: 50rem;
+}
+
+.home .home-slider .slide .image img{
+    width: 100%;
+}
+
+.home .home-slider .slide .content span{
+    color: var(--primary-color-1);
+    font-size: 2.5rem;
+}
+.home .home-slider .slide .content h3{
+    color: var(--primary-color-2);
+    font-size: 7rem;
+}
+.home .home-slider .slide .content p{
+    color: var(--light-color);
+    font-size: 2.2rem;
+    padding: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--primary-color-1);
+}
 
 
 
@@ -180,6 +246,9 @@ header .icons #menu-bars{
     header{
         padding: 1rem 2rem;
     }
+    section{
+        padding: 6rem 3rem;
+    }
 }
 
 @media (width <= 768px){
@@ -210,14 +279,18 @@ header .icons #menu-bars{
         background: #eee;
     }
     header .icons a{
-        width: 3rem;
-        height: 3rem;
-        line-height: 3rem;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
     }
 
     #search-form #search-box{
         width: 90%;
         padding: 0 1rem;
         
+    }
+
+    .home .home-slider .slide .content h3{
+        font-size: 5rem;
     }
 }
