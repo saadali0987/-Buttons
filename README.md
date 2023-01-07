@@ -1,12 +1,15 @@
 # Mocha-Avenue
 
-responive one page cafe website.
+responive one page resturant website.
 
 dynamic navigation bar
 
 dropdown searchbar
 
-technologies involved: html, css, javascript, fontawesome icons
+Slider animation
+
+technologies involved: html, css, javascript, fontawesome icons, sliderJs
 
 logo created using adobe editor
 pictures from https://www.pexels.com/
+https://swiperjs.com/
