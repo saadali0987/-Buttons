@@ -22,6 +22,3 @@ https://swiperjs.com/
 
 The project is essentialy done but I hope to comeback later with improved css skills to make it better. Maybe I can convert this into a React project later someday and maybe even have a backend to get all the images and other products data instead of having them hardcoded. Also add a working feedback section.  
 
-
-
-P.S the name is inspired by my late pet dog buttons.
